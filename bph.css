@@ -35,9 +35,9 @@ body::after {
 
 /* full */
 
-@media (min-width: 1200px) { 
+@media (min-width: 1920px) { 
     body::before {
-        content: 'xl';
+        content: 'xxl';
     }
 
     body::after {
@@ -45,15 +45,25 @@ body::after {
     }
  }
 
+@media (min-width: 1260px) and (max-width: 1919.98px) { 
+    body::before {
+        content: 'xl';
+    }
+
+    body::after {
+        content: '1920';
+    }
+ }
+
 /* 1200 */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1259.98px) {
     body::before {
         content: 'lg';
     }
 
     body::after {
-        content: '1200';
+        content: '1260';
     }
 }
 
@@ -89,7 +99,7 @@ body::after {
     }
 
     body::after {
-        content: 'under';
+        content: '576';
     }
 }
 
