@@ -20,14 +20,14 @@ body::before, body::after {
 }
 
 body::before {
-    bottom: 65px;
+    bottom: 155px;
     right: 0;
     color: #000;
     background-color: rgba(255, 255, 255, 0.25);
 }
 
 body::after {
-    bottom: 0;
+    bottom: 90px;
     right: 0;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.25);
