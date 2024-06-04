@@ -35,7 +35,7 @@ body::after {
 
 /* full */
 
-@media (min-width: 1920px) { 
+@media (min-width: 1400px) { 
     body::before {
         content: 'xxl';
     }
@@ -45,7 +45,7 @@ body::after {
     }
  }
 
-@media (min-width: 1260px) and (max-width: 1919.98px) { 
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
     body::before {
         content: 'xl';
     }
@@ -57,7 +57,7 @@ body::after {
 
 /* 1200 */
 
-@media (min-width: 992px) and (max-width: 1259.98px) {
+@media (min-width: 992px) and (max-width: 1999.98px) {
     body::before {
         content: 'lg';
     }
