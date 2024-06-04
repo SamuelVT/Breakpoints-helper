@@ -51,7 +51,7 @@ body::after {
     }
 
     body::after {
-        content: '1920';
+        content: '1400';
     }
  }
 
@@ -63,7 +63,7 @@ body::after {
     }
 
     body::after {
-        content: '1260';
+        content: '1200';
     }
 }
 
