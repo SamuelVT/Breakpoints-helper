@@ -57,7 +57,7 @@ body::after {
 
 /* 1200 */
 
-@media (min-width: 992px) and (max-width: 1999.98px) {
+@media (min-width: 992px) and (max-width: 1299.98px) {
     body::before {
         content: 'lg';
     }
